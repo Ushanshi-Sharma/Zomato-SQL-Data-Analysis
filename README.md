@@ -5,13 +5,13 @@
 
 
 ## Key Queries
-### Customers without Orders: Identifies customers who have never placed an order.
-### Average Dish Price: Calculates the average price per dish across all orders.
-### Top Restaurant by Monthly Orders: Finds the restaurant with the highest number of orders for a given month.
-### High Sales Restaurants: Lists restaurants with monthly sales exceeding a specified threshold.
-### Orders by Customer and Date Range: Displays all orders and their details for a particular customer within a specified date range.
-### Restaurants with Repeat Customers: Identifies restaurants with the highest number of repeat customers.
-### Month-over-Month Revenue Growth (Zomato): Calculates revenue growth for Zomato on a month-over-month basis.
+### Customers without Orders: #### Identifies customers who have never placed an order.
+### Average Dish Price:#### Calculates the average price per dish across all orders.
+### Top Restaurant by Monthly Orders: #### Finds the restaurant with the highest number of orders for a given month.
+### High Sales Restaurants: #### Lists restaurants with monthly sales exceeding a specified threshold.
+### Orders by Customer and Date Range: #### Displays all orders and their details for a particular customer within a specified date range.
+### Restaurants with Repeat Customers: #### Identifies restaurants with the highest number of repeat customers.
+### Month-over-Month Revenue Growth (Zomato): #### Calculates revenue growth for Zomato on a month-over-month basis.
 
 
 <br/>
