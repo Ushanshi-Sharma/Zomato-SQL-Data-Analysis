@@ -1,6 +1,6 @@
 CREATE DATABASE Zomato;
 USE Zomato;
--- ---------------------------------- Swiggy Case Study------------------------------------------------------------------------
+-- ---------------------------------- Zomato Case Study------------------------------------------------------------------------
 -- ---------------------------------- Basic SQL Queries -----------------------------------------------------------------------
 
 SELECT *
@@ -106,9 +106,9 @@ GROUP BY t.r_id , r.r_name
 ORDER BY Loyal_Customers DESC;
 
 
--- 2. Month over month revenue growth of swiggy
+-- 2. Month over month revenue growth of Zomato
 SELECT  MONTHNAME(date) as Month, SUM(amount) AS Total_sales,
-		((SUM(amount) - LAG(SUM(amount)) OVER() )/ LAG(SUM(amount)) OVER()) * 100 AS MOM_Revenue_Swiggy
+		((SUM(amount) - LAG(SUM(amount)) OVER() )/ LAG(SUM(amount)) OVER()) * 100 AS MOM_Revenue_Zomato
 From orders
 GROUP BY MONTHNAME(date);
 
