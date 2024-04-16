@@ -168,3 +168,12 @@ SELECT
     FROM ProductPairs
 JOIN users AS u ON u.user_id = ProductPairs.user_id
 ORDER BY pair_count DESC;
+
+
+
+-- -------------------------------- END ---------------------------------------------
+-- -------------------------------- THANK YOU----------------------------------------
+
+
+
+
